@@ -1,0 +1,21 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Cache files
+.cache/
+*.cache
+
+# User specific files (optional)
+# important_file/  # Uncomment if you don't want to include avatars
