@@ -74,7 +74,7 @@ o.launch_on_start(
 Change `4` to any number (seconds).
 
 ### Customize Window Appearance
-Edit `~/.config/omarchy/lookfeel.lua`:
+Edit `~/.config/hypr/lookfeel.lua`:
 ```lua
 o.window("omarchy-welcome", {
     float = true,
