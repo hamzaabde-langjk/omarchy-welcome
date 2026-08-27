@@ -25,7 +25,7 @@ sudo pacman -S foot figlet chafa
 
 
 ```
-
+<img width="1920" height="1077" alt="Image" src="https://github.com/user-attachments/assets/c36940d4-9622-4bee-afc5-304819b3729b" />
 ## 📁 Project Structure
 
 ```
