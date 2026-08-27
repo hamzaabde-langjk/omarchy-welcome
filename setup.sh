@@ -15,7 +15,7 @@ chmod +x ~/.local/bin/omarchy-welcome
 echo " Created ~/.local/bin/omarchy-welcome"
 mkdir -p ~/important_file/
 if [ -f frontground.png ]; then
-    cp frontground.png ~/important_file/frontground.png
+    cp important_file.png ~/important_file/frontground.png
     echo " Copied avatar to ~/important_file/frontground.png"
 else
     echo "  frontground.png not found, skipping avatar"
