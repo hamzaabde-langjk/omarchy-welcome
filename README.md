@@ -164,7 +164,6 @@ ls -l ~/important_file/frontground.png
 ### Autostart Not Working
 ```bash
 # Check autostart files
-ls -l ~/.config/autostart/omarchy-welcome.desktop
 ls -l ~/.config/omarchy/autostart.lua
 
 # Reload Hyprland
