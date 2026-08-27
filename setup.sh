@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "📦 Setting up Omarchy Welcome..."
+echo " Setting up Omarchy Welcome..."
 echo "Installing dependencies..."
 sudo pacman -S foot figlet chafa
 
@@ -12,25 +12,25 @@ mkdir -p ~/.config/omarchy
 mkdir -p ~/.local/bin
 
 echo "$AUTOSTART_CONTENT" > ~/.config/omarchy/autostart.lua
-echo "✅ Created ~/.config/omarchy/autostart.lua"
+echo " Created ~/.config/omarchy/autostart.lua"
 
 echo "$LOOKFEEL_CONTENT" > ~/.config/omarchy/lookfeel.lua
-echo "✅ Created ~/.config/omarchy/lookfeel.lua"
+echo " Created ~/.config/omarchy/lookfeel.lua"
 
 echo "$WELCOME_CONTENT" > ~/.local/bin/omarchy-welcome
 chmod +x ~/.local/bin/omarchy-welcome
-echo "✅ Created ~/.local/bin/omarchy-welcome"
+echo " Created ~/.local/bin/omarchy-welcome"
 
 mkdir -p ~/important_file/
 if [ -f frontground.png ]; then
     cp frontground.png ~/important_file/frontground.png
-    echo "✅ Copied avatar to ~/important_file/frontground.png"
+    echo " Copied avatar to ~/important_file/frontground.png"
 else
-    echo "⚠️  frontground.png not found, skipping avatar"
+    echo "  frontground.png not found, skipping avatar"
 fi
 
 echo ""
-echo "🎉 Setup complete!"
+echo " Setup complete!"
 echo "Files installed:"
 echo "  ~/.config/omarchy/autostart.lua"
 echo "  ~/.config/omarchy/lookfeel.lua"
